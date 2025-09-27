@@ -1,0 +1,15 @@
+Name,Description,MenuA,NodeA,MenuB,NodeB
+start,You stand in the foyer of a Hunted house. East to hallway. Down to basement.,Go east ,hall,Go down ,basement
+hall,The hall whispers. A door and a dusty mirror wait.,Open the door lite candles ,candles,Look in the mirror,mirror bad
+candles,Lit candles around a table. A planchette rests on a board.,Blow out the candles,passage,Touch the planchette,séance bad
+passage,Smoke swirls. A loose panel reveals a narrow passage.,Crawl to the cellar,cellar,Follow it to an iron door,iron door
+basement,The stairs creak. Wet stone and a steady drip below.,Keep going down,cellar,Call out 'Hello?',echo bad
+cellar,A dingy cellar: old freezer and shelves of jars.,Open the freezer,freezer bad,Check the jars,jars key
+jars_key,A small tarnished key hangs on a hook.,Back to hall,hall,Find a door for the key,iron door
+iron_door,You find an iron door with a lock and a stone pedestal with a skull.,Use the key ,amulet win,Take the skull,skull bad
+mirror_bad,"The mirror smiles back, then pulls you in. You lose.",Quit,quit,Start over,start
+seance_bad,The planchette jerks. Darkness swallows you. You lose.,Quit,quit,Start over,start
+echo_bad,Whispers answer. The step snaps you fall. You lose.,Quit,quit,Start over,start
+freezer_bad,A frozen hand grabs you. The lid slams. You lose.,Quit,quit,Start over,start
+skull_bad,Bones clatter and trap you. You lose.,Quit,quit,Start over,start
+amulet_win,You lift a warm amulet. The front door opens. You win!,Quit,quit,Start over,start
